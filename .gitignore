@@ -7,9 +7,12 @@ _amzqa_backup/
 rules.v1.bak.json
 
 # Python / build noise
+# NOTE: do NOT use *.py[cod] here — it also matches *.pyd, which are the
+# native extension modules (cv2.pyd, QtCore.pyd, ...) required at runtime.
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
+!*.pyd
 build/
 dist/
 
