@@ -1,0 +1,19 @@
+# Tool-generated backups and reports (never commit user images or reports)
+_amzqa_backup/
+**/_amzqa_backup/
+*.xlsx
+*.xlsm
+审核报告*.xlsx
+rules.v1.bak.json
+
+# Python / build noise
+__pycache__/
+*.py[cod]
+*.pyo
+build/
+dist/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
